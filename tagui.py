@@ -439,7 +439,6 @@ def setup():
 
 def init(visual_automation = False, chrome_browser = True):
     """start and connect to tagui process by checking tagui live mode readiness"""
-
     global _process, _tagui_started, _tagui_id, _tagui_visual, _tagui_chrome, _tagui_init_directory
 
     if _tagui_started:

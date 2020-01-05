@@ -36,13 +36,17 @@ t.snap('logo', 'logo.png')
 
 # another example of interacting with a web page
 # include http:// or https:// in URL parameter
-t.url('https://duckduckgo.com')
-t.type('search_form_input_homepage', 'The search engine that doesn\'t track you.')
-t.snap('page', 'duckduckgo.png')
-t.wait(4.4)
+
+
+# t.url('https://duckduckgo.com')
+# t.type('search_form_input_homepage', 'The search engine that doesn\'t track you.')
+# t.snap('page', 'duckduckgo.png')
+# t.wait(4.4)
 
 # use close() to close TagUI process and web browser
 # if you forget to close, just close() next time
+
+
 t.close()
 
 # in above web automation example, web element identifier can be XPath selector, CSS selector or
